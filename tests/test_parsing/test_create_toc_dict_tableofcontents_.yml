@@ -1,0 +1,12 @@
+meta:
+  create_append:
+    intro: '.. tableofcontents::
+
+      '
+  regress: intro
+root: intro
+subtrees:
+- entries:
+  - file: doc1
+- entries:
+  - file: doc2

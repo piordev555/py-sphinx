@@ -1,0 +1,5 @@
+root: index
+entries:
+- glob: doc*
+  entries:
+  - file: other

@@ -1,0 +1,14 @@
+defaults:
+  titlesonly: true
+options:
+  numbered: true
+root: intro
+entries:
+- file: doc1
+- file: doc2
+- file: doc3
+  entries:
+  - file: doc4
+  - url: https://example.com
+meta:
+  regress: intro

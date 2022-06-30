@@ -1,0 +1,44 @@
+documents:
+  doc1:
+    docname: doc1
+    subtrees: []
+    title: null
+  doc2:
+    docname: doc2
+    subtrees: []
+    title: null
+  doc3:
+    docname: doc3
+    subtrees:
+    - caption: null
+      hidden: true
+      items:
+      - doc4
+      - title: null
+        url: https://example.com
+      maxdepth: -1
+      numbered: false
+      reversed: false
+      titlesonly: true
+    title: null
+  doc4:
+    docname: doc4
+    subtrees: []
+    title: null
+  intro:
+    docname: intro
+    subtrees:
+    - caption: null
+      hidden: true
+      items:
+      - doc1
+      - doc2
+      - doc3
+      maxdepth: -1
+      numbered: true
+      reversed: false
+      titlesonly: true
+    title: null
+meta:
+  regress: intro
+root: intro

@@ -1,0 +1,5 @@
+root: intro
+meta:
+  create_files:
+  - doc1
+  expected_warning: document isn't included in any toctree

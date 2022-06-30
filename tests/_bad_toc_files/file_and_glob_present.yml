@@ -1,0 +1,4 @@
+root: index
+entries:
+- file: doc
+  glob: doc*

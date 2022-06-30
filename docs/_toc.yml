@@ -1,0 +1,17 @@
+root: intro
+defaults:
+  titlesonly: false
+subtrees:
+- caption: Part 1
+  numbered: true
+  entries:
+  - file: doc1
+  - file: doc2
+    entries:
+    - file: subfolder/doc3
+    - url: https://example.com
+      title: Example Link
+- caption: Part 2
+  numbered: true
+  entries:
+  - glob: subglobs/glob*

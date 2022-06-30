@@ -1,0 +1,5 @@
+root: index
+entries:
+- url: http://example.com
+  entries:
+  - file: other

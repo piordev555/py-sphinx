@@ -1,0 +1,36 @@
+documents:
+  doc1:
+    docname: doc1
+    subtrees: []
+    title: null
+  doc2:
+    docname: doc2
+    subtrees: []
+    title: null
+  intro:
+    docname: intro
+    subtrees:
+    - caption: null
+      hidden: true
+      items:
+      - doc1
+      maxdepth: -1
+      numbered: false
+      reversed: false
+      titlesonly: false
+    - caption: null
+      hidden: true
+      items:
+      - doc2
+      maxdepth: -1
+      numbered: false
+      reversed: false
+      titlesonly: false
+    title: null
+meta:
+  create_append:
+    intro: '.. tableofcontents::
+
+      '
+  regress: intro
+root: intro
